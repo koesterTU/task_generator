@@ -86,6 +86,12 @@ entrypoint = main.py
 
 include_patterns = fonts/*
 
+#v0.11pack lack of android environment
+android.build_tools_version = 33.0.2
+android.api = 33
+android.ndk = 25b
+android.sdk = 24.4.1
+
 # (string) Presplash background color (for android toolchain)
 # Supported formats are: #RRGGBB #AARRGGBB or one of the following names:
 # red, blue, green, black, white, gray, cyan, magenta, yellow, lightgray,
