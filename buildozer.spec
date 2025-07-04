@@ -18,3 +18,4 @@ android.build_tools_version = 33.0.2
 
 # 自动接受 SDK 协议（GitHub Actions 用）
 android.accept_sdk_license = True
+android.sdk_extra_args = --accept-sdk-license
