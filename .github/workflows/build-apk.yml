@@ -27,7 +27,12 @@ jobs:
           sudo apt install -y python3-pip zip unzip openjdk-17-jdk python3-setuptools \
                               libncurses5-dev libstdc++6 libffi-dev libssl-dev \
                               zlib1g zlib1g-dev libjpeg-dev git \
-                              autoconf automake libtool
+                              autoconf automake libtool pkg-config
+
+      - name: Prepare autotools
+        run: |
+          libtoolize || true
+          autoreconf -fi || true
 
       - name: Install Python dependencies
         run: |
