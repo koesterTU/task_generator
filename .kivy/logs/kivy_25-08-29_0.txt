@@ -1,4 +1,4 @@
-[INFO   ] Logger: Record log in /storage/emulated/0/task_generator/.kivy/logs/kivy_25-08-28_9.txt
+[INFO   ] Logger: Record log in /storage/emulated/0/task_generator/.kivy/logs/kivy_25-08-29_0.txt
 [INFO   ] Kivy: v2.3.1
 [INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/__init__.py"
 [INFO   ] Python: v3.13.2 (main, Apr 27 2025, 04:34:27) [GCC 11.4.0]
